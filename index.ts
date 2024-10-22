@@ -61,7 +61,7 @@ export const typescriptPaths = ({
 
 			const { resolvedFileName } = resolvedModule;
 
-			if (!resolvedFileName || resolvedFileName.endsWith('.d.ts')) {
+			if (!resolvedFileName) {
 				return null;
 			}
 
